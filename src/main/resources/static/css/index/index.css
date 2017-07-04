@@ -7,16 +7,6 @@
 	position:relative;
 }
 
-body, div, ul{
-	margin: 0;
-    padding: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-    background-repeat: no-repeat;
-    -webkit-tap-highlight-color: transparent;
-}
-
 ul li{
 	
 	list-style-type:none;/* liÈ¥µôºÚµã */

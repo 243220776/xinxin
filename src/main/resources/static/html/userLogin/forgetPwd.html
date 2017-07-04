@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>注册</title>
+    <title>忘记密码</title>
      
+    <link rel="icon" type="image/x-icon" href="/images/favicon1.ico">
+    
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/modal_alert.css">
     <link rel="stylesheet" href="/css/userLogin/forgetPwd.css">
-    <!-- <link rel="stylesheet" href="/css/reset.css"> -->
     
 </head>
 <body style="background-color: #C0C0C0;">
@@ -42,7 +44,12 @@
 <p class="error"><span id="p_code_err"></span></p>
 
 <div class="reg_btn">
-<input type="button" class="reg_btn" id="register" value="提交"  onClick="userExist(),phoneExist(),pwd_check(),surePwd(),code_check();">
+<input type="button" class="reg_btn" id="register" value="提交">
+</div>
+<p class="error"><span></span></p>
+
+<div class="login">
+<input type="button" class="login" id="login" value="去登录" onclick="javascript:window.location.href='/auth/goLogin'">
 </div>
 
 </div>
