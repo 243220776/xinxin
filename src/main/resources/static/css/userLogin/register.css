@@ -1,0 +1,72 @@
+.register_div{
+	width: 400px;
+	height: 500px;
+	margin: auto;
+	background-color: rgba(255,255,255,0.5);
+	/* background-color:	#C0C0C0; */
+	border-radius: 5px;
+	padding: 25px;
+	top: 0; left: 0; bottom: 0; right: 0;
+  	position: absolute;
+}
+.pet_name_all,.phone_all,.pwd_all,.pwd_new,.phone_code,.reg_btn{
+	width: 400px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #c8c8c8;
+    background-color: #FFFFFF;
+}
+.pet_name_all span,.phone_all span,.pwd_all span,.pwd_new span,.phone_code span{
+	letter-spacing: 3px;
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.pet_name_in,.phone_in,.pwd_in,.pwd2_in,.p_code_in{
+	border: 0px;
+	outline:none;
+	font-size: 14px;
+	height: 30px;
+}
+.pet_name_in,.phone_in,.pwd_in,.pwd2_in{
+	width: 250px;
+}
+.p_code_in{
+	width: 100px;
+}
+.code_btn{
+	width: 100px;
+	height:40px;
+    margin:4px 4px 4px auto;
+    text-align: center;
+    background-color: #08c406;
+    color: #fff;
+    font-size:14px;
+    float:right;
+    border: 0px;
+    outline:none;
+    cursor:pointer;
+}
+   
+.reg_btn{
+	background-color: #08c406;
+	color: #fff;
+	font-size:14px;
+	cursor:pointer;
+}
+
+.error span{
+	font-size: 14px;
+	color: #08c406;
+}
+
+.error{
+	margin: 0;
+	height: 30px;
+	line-height: 30px;
+}
+body a{
+	text-decoration: none;	/* a标签去掉下划线 */
+	/* color: #303030;	 */
+}
+

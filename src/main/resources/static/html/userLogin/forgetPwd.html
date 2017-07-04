@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+     
+    <link rel="stylesheet" href="/css/modal_alert.css">
+    <link rel="stylesheet" href="/css/userLogin/forgetPwd.css">
+    <!-- <link rel="stylesheet" href="/css/reset.css"> -->
+    
+</head>
+<body style="background-color: #C0C0C0;">
+
+<div class="register_bg">
+
+<div class="register_div">
+
+
+<div class="phone_all">
+<span>手 机 号</span>
+<input class="phone_in" type="text" id="phone" placeholder="请使用常用手机号">
+</div>
+<p class="error"><span id="phone_err"></span></p>
+
+<div class="pwd_all">
+<span>登录密码</span>
+<input class="pwd_in" type="password" id="pwd" placeholder="请设置密码">
+</div>
+<p class="error"><span id="pwd_err"></span></p>
+
+<div class="pwd_new">
+<span>确认密码</span>
+<input class="pwd2_in" type="password" id="pwd2" placeholder="请再次输入密码">
+</div>
+<p class="error"><span id="pwd2_err"></span></p>
+
+<div class="phone_code">
+<span>验 证 码</span>
+<input class="p_code_in" type="number" id="p_code" placeholder="短信验证码">
+<input type="text" class="code_btn" id="code_btn" value="获取验证码" readonly="readonly">
+</div>
+<p class="error"><span id="p_code_err"></span></p>
+
+<div class="reg_btn">
+<input type="button" class="reg_btn" id="register" value="提交"  onClick="userExist(),phoneExist(),pwd_check(),surePwd(),code_check();">
+</div>
+
+</div>
+</div>
+
+<div class="modal_alert">
+        <div class="modal_box">
+            <div class="modal_prompt">
+                <span>提示</span>
+                <a class="close" href="javascript:void(0);">
+                    <img src="/images/close.png" alt="">
+                </a>
+            </div>
+            <div class="modal_content">
+                <p class="txt_one"><img src="" alt=""></p>
+                <p class="txt_two"></p>
+            </div>
+            <div class="modal_submit">
+                <input class="confirm" type="button" value="确定">
+            </div>
+            
+        </div>
+        <div class="mask_layer"></div>
+</div>
+</body>
+<script type="text/javascript" src="/js/utils/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="/js/x_alert.js"></script>
+<script type="text/javascript" src="/js/userLogin/forgetPwd.js"></script>
+</html>

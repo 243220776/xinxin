@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+     
+    <link rel="stylesheet" href="/css/modal_alert.css">
+    <link rel="stylesheet" href="/css/userLogin/login.css">
+    
+</head>
+
+<body style="background-color: #C0C0C0;">
+
+<div class="login_bg">
+
+<div class="login_one">
+    <span><input class="uname" type="text" id="username" placeholder="手机号 /账号 /昵称"></span>
+    <span><input class="pass" type="password" id="password" placeholder="密码"></span>
+    <span><input type="button" class="btn" id="login" value="立即登录"></span>
+    <div class="reg"><span><a href="/auth/goRegister">立即注册</a>|</span><span><a href="/auth/goForgetPwd">找回密码</a></span></div>
+</div>
+
+</div>
+
+
+
+<div class="modal_alert">
+        <div class="modal_box">
+            <div class="modal_prompt">
+                <span>提示</span>
+                <a class="close" href="javascript:void(0);">
+                    <img src="/images/close.png" alt="">
+                </a>
+            </div>
+            <div class="modal_content">
+                <p class="txt_one"><img src="" alt=""></p>
+                <p class="txt_two"></p>
+            </div>
+            <div class="modal_submit">
+                <input class="confirm" type="button" value="确定">
+            </div>
+            
+        </div>
+        <div class="mask_layer"></div>
+</div>
+
+<!-- <div class="modal_alert">
+        <div class="modal_box">
+            <div class="modal_prompt">
+                <span>提示</span>
+                <a class="close" href="javascript:void(0);">
+                    <img src="/images/close.png" alt="">
+                </a>
+            </div>
+            <div class="modal_content">
+                <p class="txt_one"><img src="" alt=""></p>
+                <p class="txt_two"></p>
+            </div>
+            <div class="modal_submit">
+                <input class="confirm" type="button" value="确定">
+                <input class="close_err" type="button" value="取消">
+            </div>
+            
+        </div>
+        <div class="mask_layer"></div>
+</div> -->
+
+
+
+
+
+</body>
+<script type="text/javascript" src="/js/utils/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="/js/x_alert.js"></script>
+<script type="text/javascript" src="/js/userLogin/userLogin.js"></script>
+
+</html>

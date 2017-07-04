@@ -1,0 +1,25 @@
+spring:
+    datasource:
+    
+        url: jdbc:mysql://39.108.93.150:3306/xinxin?zeroDateTimeBehavior=round&useUnicode=true&characterEncoding=utf8
+        username: root
+        password: uAiqwVwjJ8-ii
+        
+        driver-class-name: com.mysql.jdbc.Driver
+    
+    jpa:
+       database: MYSQL
+       show-sql: true  
+
+mybatis:
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  type-aliases-package: com.app.domain
+
+
+server:
+    tomcat:
+        accesslog:
+            enabled: true
+            directory: /home/project/request_status/log
+            pattern: -%{X-Real-IP}i %l %u %t "%r" %s %b"
+#            directory: d://access.log

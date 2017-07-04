@@ -1,0 +1,87 @@
+.modal_box {
+    padding-bottom: 40px;
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    margin-left: -225px;
+    margin-top: -132.5px;
+    min-width: 450px;
+    min-height: 265px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modal_box .modal_prompt {
+    height: 30px;
+    line-height: 30px;
+    background-color: #08c406;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+.modal_box .modal_prompt span {
+    float: left;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.modal_box .modal_prompt a {
+    float: right;
+    padding-right: 10px;
+}
+
+.modal_content {
+    min-height: 145px;
+    width: 350px;
+    display: table;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.modal_submit {
+    padding-top: 15px;
+}
+
+.modal_submit input {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #08c406;
+    border-radius: 5px;
+    border: 0;
+}
+
+.mask_layer {
+    background-color: #000;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 998;
+    height: 100%;
+}
+.modal_content p{
+	font-size: 14px;
+}
+.modal_alert{
+	display: none;
+}
+
+.txt_one{
+	padding:10px 0;
+}
+.txt_two{
+	padding:0;
+}
+
+.close_err{
+	margin-left: 50px;
+}

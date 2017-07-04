@@ -1,0 +1,38 @@
+.home_one{
+	background: url(/images/index/bg-index.jpg) top center no-repeat;
+	
+	background-size:100%;
+	border-bottom:none;
+	min-height:800px;
+	position:relative;
+}
+
+body, div, ul{
+	margin: 0;
+    padding: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-repeat: no-repeat;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul li{
+	
+	list-style-type:none;/* li去掉黑点 */
+	float:left;/* li变横向 */
+	margin:40px 0 0 0;
+	min-width:100px; 
+	color: #303030;	
+}
+
+.home_two{
+	margin:0 auto;
+	width:15%;
+	height:100px;
+	/* background-color:#DCDCDC; */
+}
+
+body a{
+	text-decoration: none;	/* a标签去掉下划线 */
+}
