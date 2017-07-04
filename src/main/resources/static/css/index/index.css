@@ -26,3 +26,33 @@ ul li{
 body a{
 	text-decoration: none;	/* a标签去掉下划线 */
 }
+
+
+
+
+
+.footer {
+    height: 200px;
+    width:100%;
+    background-color: #1f2738;
+    border-top: 1px solid #d9e3ed;
+    line-height: 1;
+    position:absolute;bottom:0;
+}
+.footer .links {
+    text-align: center;
+    margin-top: 34px;
+    font-size: 14px;
+}
+.footer .declare {
+    text-align: center;
+    color: #7e8187;
+    margin-top: 16px;
+    font-size: 12px;
+}
+.footer .declare {
+    text-align: center;
+    color: #7e8187;
+    margin-top: 16px;
+    font-size: 12px;
+}
