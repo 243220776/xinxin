@@ -3,7 +3,7 @@
 	
 	background-size:100%;
 	border-bottom:none;
-	min-height:900px;
+	height:800px;
 	position:relative;
 }
 
@@ -38,7 +38,7 @@ body a{
     border-top: 1px solid #d9e3ed;
     line-height: 1;
     bottom: 0;
-    position: fixed;
+    /* position: fixed; */
 }
 .footer .links {
     text-align: center;
