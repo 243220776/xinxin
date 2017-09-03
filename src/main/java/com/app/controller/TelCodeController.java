@@ -33,4 +33,5 @@ public class TelCodeController {
 	public String validateCode(String phone, Integer code){
 		return telCodeService.validateCode(phone,code);
 	}
+	
 }

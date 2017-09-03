@@ -15,5 +15,6 @@ public interface UserService {
 	public String register(User user,Integer code);
 	
 	public String updatePwd(String phone,String password,Integer code);
+
 	
 }

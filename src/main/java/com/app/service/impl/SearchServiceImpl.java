@@ -39,8 +39,6 @@ public class SearchServiceImpl implements SearchService {
 		for (Object obj : objs) {
 			dat.add(obj);
 			}
-		
-		
 		 }
 		
 		return json.toString();

@@ -30,5 +30,5 @@ public interface UserMapper {
 	Integer addUser(User user);
 	
 	Integer updateUser(User user);
-
+	
 }
