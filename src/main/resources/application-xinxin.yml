@@ -14,12 +14,3 @@ spring:
 mybatis:
   mapper-locations: classpath*:mapper/*Mapper.xml
   type-aliases-package: com.app.domain
-
-
-server:
-    tomcat:
-        accesslog:
-            enabled: true
-            directory: /home/project/request_status/log
-            pattern: -%{X-Real-IP}i %l %u %t "%r" %s %b"
-#            directory: d://access.log
