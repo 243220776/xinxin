@@ -10,16 +10,17 @@ ul li{
 	
 	list-style-type:none;/* li去掉黑点 */
 	float:left;/* li变横向 */
-	margin:40px 0 0 0;
+	margin:16px 0 0 0;
 	min-width:100px; 
-	color: #303030;	
+	color: #303030;
+	text-align: center;	
 }
 
 .home_two{
 	margin:0 auto;
-	width:15%;
-	height:100px;
-	/* background-color:#DCDCDC; */
+	width:100%;
+	height:50px;
+	background-color:#DCDCDC;
 }
 
 body a{

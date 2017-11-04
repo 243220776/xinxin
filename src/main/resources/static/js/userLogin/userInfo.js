@@ -37,7 +37,7 @@ function logout(){
 		dataType:'json',
 		success:function(data){
 			if(data.code==0){
-				 window.location.href='/';
+				window.location.reload();
 			}
 		}
 	})
