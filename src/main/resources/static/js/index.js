@@ -20,6 +20,8 @@ function getUserName(){
 		success:function(data){
 			if(data){
 				$('#user_info').text("欢迎您："+data);
+			}else{
+				$('#user_info').text("登录");
 			}
 		}
 	})
