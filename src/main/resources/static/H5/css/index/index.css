@@ -1,42 +1,43 @@
 .xw{
 	background-color: #FFFFFF;
 	margin-top: 10px;
-	height: 110px;
+	height: 100px;
 	width : 100%;
 }
 .text{
 	margin: 10px 10px 10px 10px;
 }
-.img{
-	width: 30%;
-	float:left;
-	margin-top : 10px;
-}
+
 .title{
-	width: 70%;
-	height:70px;
+	width: 65%;
+	height:50px;
 	float:left;
     line-height: 25px;
     margin-top : 10px;
-    overflow: hidden;/*注意不要写在最后了*/   
+    overflow: hidden;/*注意不要写在最后了*/
 
 }
+.jg{
+	width: 10px;
+}
+.img{
+	width: 30%;
+	float:right;
+	margin-top : 10px;
+}
+
 .image{
 	display: block;
     width: 100%;
     height: 100%;
-    max-width: unset;
-    max-height: unset;
-    margin-left: 0px;
-    margin-top: 0px;
-    border: 0px none;
-    vertical-align: top;
-    visibility: visible;
-    transition: opacity 200ms ease-out;
-    opacity: 1;
     backface-visibility: hidden;
 }
-.time{
-	margin-top:10px;
+.tc{
 	font-size: 13px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	line-height: 50px;
+}
+.count{
+	margin-left: 20px;
 }
