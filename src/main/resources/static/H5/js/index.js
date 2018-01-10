@@ -4,12 +4,15 @@
 
 function init(){
 	var params = location.search;
-	mui.ajax({
-		url:"/qq/authQQ",
-		data:{"code":params},
-		dataType:'text',
-		success:function(data){
-			console.log(data+"：成功");
-		}
-	})
+	if(params != ''){//暂时先这样，需要加强
+		mui.ajax({
+			url:"/qq/authQQ",
+			data:{"code":params},
+			dataType:'text',
+			success:function(data){
+				console.log(data+"：成功");
+			}
+		});
+	}
+	
 }
