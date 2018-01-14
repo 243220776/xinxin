@@ -15,4 +15,20 @@ function init(){
 		});
 	}
 	
+	$("#myInfo").bind("tap",function(){
+		mui.ajax({
+			url:"/auth/getUserName",
+			type:'post',
+			dataType:'text',
+			success:function(data){
+				if(data){
+					window.location.href="/users/user";
+				}else{
+					window.location.href="/auth/login";
+				}
+			}
+		})
+	});
+	
+	
 }

@@ -16,6 +16,19 @@ public class H5PageController {
 	public String  indexPage(){
 		
 		return "/H5/html/index.html";
-	}	
+	}
+	
+	//登录页面
+	@RequestMapping("/auth/login")
+	public String  loginPage(){
+			
+		return "/H5/html/login.html";
+	}
+	
+	@RequestMapping("/users/user")
+	public String  mainPage(){
+			
+		return "/H5/html/user.html";
+	}
 	
 }

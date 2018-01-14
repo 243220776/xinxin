@@ -18,22 +18,6 @@ public class PageController {
 		return "/html/index.html";
 	}
 	
-	//前往快捷登录页面
-	@RequestMapping(value = {"/qq/login"})
-	public String  login(){
-			
-		return "/html/test/login.html";
-	}
-	
-	//前往快捷登录信息页面
-	@RequestMapping(value = {"/qq/loginInfo"})
-	public String  loginInfo(){
-			
-		return "/html/test/loginInfo.html";
-	}
-	
-	
-	
 	//登录页面	
 	@RequestMapping("/auth/goLogin")
 	public String goLogin(){
@@ -57,9 +41,5 @@ public class PageController {
 		return "/html/userLogin/userInfo.html";
 	}
 	
-	/*@RequestMapping("/goSearch")
-	public String goSearch(){
-		return "html/search/searchInfo.html";
-	}*/
 	
 }
