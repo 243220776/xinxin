@@ -1,4 +1,8 @@
 package com.app.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
 @Controller
 public class H5PageController {
     @RequestMapping({"/H5"})

@@ -1,5 +1,10 @@
 package com.app.controller;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.alibaba.fastjson.JSONObject;
+import com.app.utils.HttpRequest;
+
 public class QQAPI {
     private static final String APP_ID = "101454904";
     private static final String APP_KEY = "e49ef2c34522964a2aba1427738eccbb";
